@@ -1,0 +1,68 @@
+.about {
+  &__title {
+    font-family: "Orchidea Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    margin: 0;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #141414;
+    span {
+      text-transform: lowercase;
+      font-style: italic;
+    }
+    &-slider {
+      justify-content: center;
+    }
+  }
+  &__card {
+    display: flex;
+    margin-bottom: 112px;
+    height: 480px;
+    justify-content: space-between;
+    &-top {
+      width: 1657px;
+      margin-left: auto;
+    }
+    &__wrapper-text {
+      width: 600px;
+      height: 455px;
+    }
+    &-title {
+      font-family: "Orchidea Pro";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 110%;
+      margin: 0;
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+
+      color: #141414;
+    }
+    &-descr {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      color: #141414;
+    }
+  }
+  &__image-Julia {
+    img {
+      width: 860px;
+      height: 480px;
+    }
+  }
+  &__image-Tanya {
+    margin-right: 198px;
+  }
+}

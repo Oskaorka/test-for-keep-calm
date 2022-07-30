@@ -1,0 +1,50 @@
+.header {
+  height: 100px;
+  align-items: center;
+  display: flex;
+  background: linear-gradient(0deg, #464341 0%, #010101 100%);
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__contact {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    height: 255px;
+    &-link {
+      position: relative;
+      margin-right: 55px;
+      text-decoration: none;
+      font-family: "Manrope";
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 110%;
+      align-items: center;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+
+      color: #141414;
+      &:hover {
+        &::after {
+          content: "";
+          position: absolute;
+          width: 135px;
+          height: 5px;
+          background-color: #141414;
+          color: red;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}

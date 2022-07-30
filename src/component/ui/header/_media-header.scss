@@ -1,0 +1,22 @@
+@media (max-width: 375px) {
+  .header {
+    height: 70px;
+    &__contact {
+      display: none;
+    }
+    &__wrapper {
+      &-logo {
+        img {
+          width: 118px;
+        }
+      }
+    }
+    &__nav {
+      height: 110px;
+      &-link {
+        font-size: 18px;
+        margin-right: 23px;
+      }
+    }
+  }
+}

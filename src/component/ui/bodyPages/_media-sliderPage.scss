@@ -1,0 +1,85 @@
+@media (max-width: 375px) {
+  .slider {
+    .container {
+      width: 100%;
+    }
+    &-image {
+      min-width: 100vw;
+      img {
+      }
+      &__descr {
+        top: 409px;
+      }
+      &__descr-rightblck {
+        top: 0;
+        height: 100vh;
+        pointer-events: none;
+      }
+    }
+    .about__title {
+      width: 335px;
+      margin: 0 auto;
+      display: block;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    &__modal {
+      &-wrapper {
+        top: 25%;
+        width: 100%;
+        width: 375px;
+        .slider-image {
+          min-width: 375px;
+          min-height: 550px;
+          left: 0;
+          div {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      &::after {
+        top: 0px;
+        font-size: 20px;
+        right: 25px;
+        padding: 10px;
+      }
+      &-descr {
+        width: 335px;
+        font-size: 14px;
+        line-height: 130%;
+        bottom: 5px;
+      }
+      .slick-slide,
+      .slick-list {
+        margin: 0px;
+      }
+      .slick-track {
+        left: 0px;
+      }
+    }
+  }
+  .slick-slide,
+  .slick-list {
+    margin: 0px;
+  }
+  .slick-track {
+    left: 0px;
+  }
+  .next-white {
+    background: #141414;
+    height: 30px;
+    width: 30px;
+    bottom: 218px;
+    left: 84%;
+    z-index: 1;
+  }
+  .prev-white {
+    background: #141414;
+    height: 30px;
+    width: 30px;
+    bottom: 218px;
+    left: 92%;
+    z-index: 1;
+  }
+}

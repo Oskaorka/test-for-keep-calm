@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Orchidea";
+  src: local("OrchideaPro-Medium"),
+    url(./OrchideaPro-Medium.woff2) format("truetype");
+  font-weight: 500;
+  /* font-weight: normal; */
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Regular"), url(./Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+  /* font-weight: normal; */
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("Manrope-Bold"), url(./Manrope-Bold.woff2) format("truetype");
+  font-weight: 700;
+  /* font-weight: normal; */
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("Manrope-Medium"), url(./Manrope-Medium.woff2) format("truetype");
+  font-weight: 500;
+  /* font-weight: normal; */
+}

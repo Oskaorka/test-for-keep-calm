@@ -1,0 +1,30 @@
+@import "./font/font.css";
+@import "./component/ui/header/header.scss";
+@import "./component/ui/bodyPages/bodyMainPage.scss";
+@import "./component/ui/footer/footer.scss";
+@import "./component/ui/bodyPages/SliderPage.scss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "./component/ui/header/media-header";
+@import "./component/ui/bodyPages/media-bodyMain";
+@import "./component/ui/bodyPages/media-sliderPage";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1920px;
+}
+.container {
+  width: 1397px;
+  margin: 0 auto;
+}
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .container {
+    width: 335px;
+  }
+}
